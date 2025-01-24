@@ -1,0 +1,43 @@
+{
+	"name": "social-sphere",
+	"version": "1.0.0",
+	"description": "Web app that allows users to create their own personal page to share their social media links and other personalized links.",
+	"main": "./dist/app.js",
+	"scripts": {
+		"build": "npm i && tsc",
+		"start": "node ./dist/app.js",
+		"dev": "nodemon app.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kunalkeshan/Social-Sphere.git"
+	},
+	"author": "Kunal Keshan <kunalkeshan12@gmail.com>",
+	"license": "MPL-2.0",
+	"bugs": {
+		"url": "https://github.com/kunalkeshan/Social-Sphere/issues"
+	},
+	"homepage": "https://github.com/kunalkeshan/Social-Sphere#readme",
+	"devDependencies": {
+		"@types/bcryptjs": "^2.4.2",
+		"@types/cors": "^2.8.13",
+		"@types/express": "^4.17.17",
+		"@types/jsonwebtoken": "^9.0.2",
+		"@types/morgan": "^1.9.4",
+		"@types/node": "^20.2.0",
+		"nodemon": "^2.0.22",
+		"typescript": "^5.0.4"
+	},
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"jsonwebtoken": "^9.0.0",
+		"mongodb": "^5.5.0",
+		"morgan": "^1.10.0",
+		"uuidv4": "^6.2.13",
+		"winston": "^3.8.2",
+		"zod": "^3.21.4"
+	}
+}
