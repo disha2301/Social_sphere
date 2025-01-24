@@ -6,17 +6,15 @@
 
 Welcome to Social Sphere, a web application that allows users to create their own personal page to share their social media links and other personalized links.
 
-**Table of Contents:**
+## 📑 Table of Contents
 
-- [Tech Stack](#-tech-stack)
-- [Architecture Explanation](#-architecture-explanation)
-- [Quick Start](#-quick-start)
-- [Features](#-features)
-- [Contributing](#-contributing)
-  - [Project Contributors](#-project-contributors)
-- [License](#-license)
-- [Forking This Repo](#-forking-this-repo)
-- [Reference Links](#reference-links)
+- [💻 Tech Stack](#-tech-stack)
+- [🏗 Architecture Explanation](#-architecture-explanation)
+- [🚀 Quick Start](#-quick-start)
+- [🌟 Features](#-features)
+- [📃 License](#-license)
+- [⚔ Forking This Repo](#-forking-this-repo)
+- [🔗 Reference Links](#-reference-links)
 
 ## 💻 Tech Stack
 
@@ -29,13 +27,21 @@ Welcome to Social Sphere, a web application that allows users to create their ow
 | Axios | JsonWebToken
 | React Hot Toast | Bcrypt.js |
 
+---
+
 ## 🏗 Architecture Explanation
 
-The application follows a Model-View-Controller (MVC) architecture. The backend handles the data storage and retrieval using MongoDB, while the frontend is responsible for rendering the user interface and making API calls to the backend.
+Social Sphere follows a **Model-View-Controller (MVC)** architecture to maintain a clean and scalable structure:
 
-![Architecture for Social Sphere](./client/public/architecture.png)
+- **Backend**: MongoDB powers the database, ensuring efficient data storage and retrieval.
+- **Frontend**: Built with React.js, it provides an interactive and user-friendly interface.
+- **Authentication**: Token-based authentication using **JSON Web Tokens (JWT)** ensures secure user sessions, while **bcrypt.js** hashes passwords for added protection.
 
-The authentication process is token-based, where JSON Web Tokens (JWT) are generated for authenticated users. The tokens are then checked for requests that require user authentication. The passwords are hashed using bcrypt for secure storage.
+### Architecture Diagram:
+![Architecture Diagram](./client/public/architecture.png)
+
+---
+
 
 ## 🚀 Quick Start
 
@@ -59,16 +65,6 @@ Backend Endpoint Testing and Documentation was done using Postman, check the col
 - Preview feature for viewing the page before publishing
 - Publishing and sharing the page with others
 - Responsive design for all screen sizes and devices
-
-## 🎁 Contributing
-
-Contributions to Social Sphere are welcome! If you have any ideas or improvements, feel free to submit a pull request or open an issue. Refer to the [CONTRIBUTING.md](/CONTRIBUTING.md) guide for more information.
-
-### 🤗 Project Contributors
-
-<a href="https://github.com/kunalkeshan/Social-Sphere/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=kunalkeshan/Social-Sphere" />
-</a>
 
 ## 📃 License
 
