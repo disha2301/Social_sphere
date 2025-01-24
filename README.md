@@ -76,7 +76,6 @@ Many people have contacted us asking if they can use this code for their own web
 
 We value keeping this project open source, but as you all know, plagiarism is bad. We actively spend a non-negligible amount of effort developing, designing, and trying to perfect this iteration of our project, and we are proud of it! All we ask is to not claim this effort as your own.
 
-So, feel free to fork this repo. If you do, please just give us proper credit by linking back to this repo, [https://github.com/kunalkeshan/Social-Sphere](https://github.com/kunalkeshan/Social-Sphere). Refer to this handy [quora](https://www.quora.com/Is-it-bad-to-copy-other-peoples-code) post if you're not sure what to do. Thanks!
 
 ## Reference Links
 
